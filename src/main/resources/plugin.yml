@@ -1,0 +1,6 @@
+name: TrialPunishiment
+version: '${project.version}'
+main: me.dev.zennyel.Punishiment
+authors: [ Zennyel ]
+description: DevRoom trial punishiment plugin, disponible on github!
+website: https://github.com/guilherme-santiago07/

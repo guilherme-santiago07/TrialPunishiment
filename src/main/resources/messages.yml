@@ -1,0 +1,7 @@
+messages:
+  ban: '§4[Trial] <player> has been banned for <motive>'
+  tempban: '4[Trial] <player> has been tempbanned for <time> by <motive> '
+  mute: '§4[Trial] <staff> muted <player> for <motive>'
+  tempmute: '§4[Trial] <staff> muted <player> for <time> by <motive>'
+  warn: '&4[Trial] <staff> warned <player> for <motive>'
+  kick: '&4[Trial] <staff> kick out <player> for <motive>'
