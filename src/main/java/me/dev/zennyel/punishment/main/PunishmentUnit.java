@@ -1,6 +1,6 @@
-package me.dev.zennyel.punishiment;
+package me.dev.zennyel.punishment.main;
 
-public enum PunishimentUnit {
+public enum PunishmentUnit {
     SECOND("sec", 0),
     MINUTE("min", 1),
     HOUR("hour", 60),
@@ -13,7 +13,7 @@ public enum PunishimentUnit {
 
     public String name;
 
-    PunishimentUnit(String n, int mult) {
+    PunishmentUnit(String n, int mult) {
         this.name = n;
         this.multi = mult;
     }
@@ -27,9 +27,9 @@ public enum PunishimentUnit {
         }
         byte b;
         int i;
-        PunishimentUnit[] arrayOfPunishimentUnit;
+        PunishmentUnit[] arrayOfPunishimentUnit;
         for (i = (arrayOfPunishimentUnit = values()).length, b = 0; b < i; ) {
-            PunishimentUnit unit = arrayOfPunishimentUnit[b];
+            PunishmentUnit unit = arrayOfPunishimentUnit[b];
             if (un.startsWith(unit.name))
                 return (sec *= unit.multi) * 1000L;
             b++;
